@@ -1,0 +1,61 @@
+
+@media screen and (min-width:641px) and (max-width:1023px) {
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 10%;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+    header .container {
+        background-color: rgb(56, 104, 214);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    main {
+        max-width: 1024px;
+        padding: 2em 0;
+        margin: 0 auto;
+    }
+
+    .sobre-img {
+        max-width: 1024px;
+    }
+
+    #produtos {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .container {
+        max-width: 1024px;
+    }
+
+    .grid {
+        max-width: 1024px;
+        display: grid;
+        grid-template-columns: repeat(4, 24.5%);
+        column-gap: 1%;
+        margin: 0 auto;
+    }
+
+    .grid-sobre {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        column-gap: 2%;
+
+
+    }
+
+
+
+}
